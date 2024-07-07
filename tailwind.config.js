@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+const defaultTheme = require('tailwindcss/defaultTheme')
 export default {
   content: ["./src/*.vue"],
   theme: {
@@ -40,6 +41,9 @@ export default {
           },
         },
       },
+      fontFamily: {
+        serif: ['inter', ...defaultTheme.fontFamily.serif]
+      }
     },
   },
   plugins: [],

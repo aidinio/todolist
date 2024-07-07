@@ -554,7 +554,151 @@ video {
   --tw-contain-style:  ;
 }
 
+.flex {
+  display: flex;
+}
+
+.h-\[100vh\] {
+  height: 100vh;
+}
+
+.h-\[63px\] {
+  height: 63px;
+}
+
+.w-\[100\%\] {
+  width: 100%;
+}
+
+.w-\[50\%\] {
+  width: 50%;
+}
+
+.max-w-\[960px\] {
+  max-width: 960px;
+}
+
+.flex-grow-\[20\] {
+  flex-grow: 20;
+}
+
+.flex-grow-\[80\] {
+  flex-grow: 80;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.gap-\[6px\] {
+  gap: 6px;
+}
+
+.rounded-\[20px\] {
+  border-radius: 20px;
+}
+
+.bg-blue-background-2 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(30 32 48 / var(--tw-bg-opacity));
+}
+
+.bg-green-background {
+  --tw-bg-opacity: 1;
+  background-color: rgb(166 218 149 / var(--tw-bg-opacity));
+}
+
+.bg-red-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
+}
+
+.pl-\[30px\] {
+  padding-left: 30px;
+}
+
+.font-\[\] {
+  font-family: ;
+}
+
+.text-\[1\.2rem\] {
+  font-size: 1.2rem;
+}
+
+.font-light {
+  font-weight: 300;
+}
+
+.font-black {
+  font-weight: 900;
+}
+
+.font-extrabold {
+  font-weight: 800;
+}
+
+.font-\[800\] {
+  font-weight: 800;
+}
+
+.font-\[100\] {
+  font-weight: 100;
+}
+
+.font-\[900\] {
+  font-weight: 900;
+}
+
+.font-\[1000\] {
+  font-weight: 1000;
+}
+
+.font-\[1100\] {
+  font-weight: 1100;
+}
+
+.font-\[1200\] {
+  font-weight: 1200;
+}
+
+.font-\[1300\] {
+  font-weight: 1300;
+}
+
+.font-\[1400\] {
+  font-weight: 1400;
+}
+
+.font-\[00\] {
+  font-weight: 00;
+}
+
+.text-blue-foreground {
+  --tw-text-opacity: 1;
+  color: rgb(202 211 245 / var(--tw-text-opacity));
+}
+
+.text-green-foreground {
+  --tw-text-opacity: 1;
+  color: rgb(47 62 42 / var(--tw-text-opacity));
+}
+
 :root {
   --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+  background-color: rgb(24 25 38 / var(--tw-bg-opacity));
+  font-family: inter, ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-weight: 900;
+}
+
+.focus\:outline-none:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
 }
