@@ -6,7 +6,10 @@ export default {
       colors: {
         blue: {
           foreground: "#CAD3F5",
-          background: "#1E2030",
+          background: {
+            1: "#181926",
+            2: "#1E2030",
+          },
           shadow: {
             light: "#323551",
             dark: "#000000",
