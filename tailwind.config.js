@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 const defaultTheme = require('tailwindcss/defaultTheme')
 export default {
-  content: ["./src/*.vue"],
+  content: ["./src/*.vue", "./src/components/*.vue"],
   theme: {
     extend: {
       colors: {
