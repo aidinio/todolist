@@ -562,6 +562,10 @@ video {
   visibility: collapse;
 }
 
+.static {
+  position: static;
+}
+
 .relative {
   position: relative;
 }
@@ -649,6 +653,34 @@ video {
 
 .flex-\[68\] {
   flex: 68;
+}
+
+.flex-\[14\] {
+  flex: 14;
+}
+
+.flex-\[86\] {
+  flex: 86;
+}
+
+.flex-\[\] {
+  flex: ;
+}
+
+.flex-\[72\] {
+  flex: 72;
+}
+
+.flex-\[13\] {
+  flex: 13;
+}
+
+.flex-\[74\] {
+  flex: 74;
+}
+
+.flex-\[87\] {
+  flex: 87;
 }
 
 .flex-shrink {
@@ -783,6 +815,10 @@ video {
   font-size: 1rem;
 }
 
+.lowercase {
+  text-transform: lowercase;
+}
+
 .text-blue-foreground {
   --tw-text-opacity: 1;
   color: rgb(202 211 245 / var(--tw-text-opacity));
@@ -809,6 +845,10 @@ video {
 
 .outline {
   outline-style: solid;
+}
+
+.filter {
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
 :root {

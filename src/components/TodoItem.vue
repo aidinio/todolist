@@ -6,9 +6,9 @@ import TodoDescription from './TodoDescription.vue'
 
 <template>
     <div class="flex w-[100%] gap-[7px] h-[60px] justify-start flex-nowrap">
-        <DoneButton class="flex-[16]" />
-        <DeleteButton class="flex-[16]" />
-        <TodoDescription class="flex-[68]">
+        <DoneButton class="flex-[13]" />
+        <DeleteButton class="flex-[13]" />
+        <TodoDescription class="flex-[74]">
             <slot></slot>
         </TodoDescription>
     </div>
