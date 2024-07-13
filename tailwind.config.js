@@ -40,6 +40,14 @@ export default {
             dark: "#7E62A1",
           },
         },
+        yellow: {
+          foreground: "#4C3D20",
+          background: "#EED49F",
+          shadow: {
+            light: "#FFF1D4",
+            dark: "#B89959",
+          }
+        }
       },
       fontFamily: {
         serif: ['inter', ...defaultTheme.fontFamily.serif]

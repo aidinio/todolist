@@ -8,7 +8,7 @@ const clearInput = ref(false)
 const emit = defineEmits()
 
 function clickHandler() {
-    if (todoText) emit('addTodo', todoText)
+    if (todoText.value) emit('addTodo', todoText)
     clearInput.value = true
     console.log(`[TodoAdd.vue] clearInput is: ${clearInput.value}`)
 }
@@ -16,7 +16,7 @@ function clickHandler() {
 
 <template>
     <div class="flex w-[100%] gap-[7px] h-[60px]">
-        <TextInput @clearedText="clearInput = undefined" :clearInput="clearInput" @textChange="(text) => {todoText = text}" class="flex-[87]" />
+        <TextInput @clearedText="clearInput = undefined, todoText = ``" :clearInput="clearInput" @textChange="(text) => {todoText = text}" class="flex-[87]" />
         <AddButton @click="clickHandler" class="flex-[13]" />
     </div>
 </template>

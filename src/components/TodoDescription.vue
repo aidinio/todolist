@@ -1,5 +1,10 @@
+<script setup>
+
+const props = defineProps(['done'])
+</script>
+
 <template>
-    <div class="bg-purple-background text-purple-foreground rounded-[17px] description-shadow flex overflow-hidden">
+    <div class=" rounded-[17px] flex overflow-hidden" :class="[props.done ? ['bg-green-background', 'text-green-foreground', 'description-shadow-done'] : ['bg-purple-background', 'text-purple-foreground', 'description-shadow-pending']]">
         <p class="content-center justify-start mx-[30px]">
             <slot></slot>
         </p>
