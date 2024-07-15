@@ -1,5 +1,8 @@
 # todolist
 
+## Current state
+![Current state of the project](./current_state.png)
+
 This template should help get you started developing with Vue 3 in Vite.
 
 ## Recommended IDE Setup
