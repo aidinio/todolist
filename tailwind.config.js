@@ -20,8 +20,8 @@ export default {
           foreground: "#2F3E2A",
           background: "#A6DA95",
           shadow: {
-            light: "#CBF3BD",
-            dark: "#6FA35E",
+            light: "#DAFFCF",
+            dark: "#305e21",
           },
         },
         red: {
@@ -29,7 +29,7 @@ export default {
           background: "#ED8796",
           shadow: {
             light: "#FFB1BC",
-            dark: "#AD6771",
+            dark: "#96414E",
           },
         },
         purple: {
@@ -45,7 +45,7 @@ export default {
           background: "#EED49F",
           shadow: {
             light: "#FFF1D4",
-            dark: "#B89959",
+            dark: "#786132",
           }
         }
       },

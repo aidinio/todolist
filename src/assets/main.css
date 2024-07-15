@@ -11,52 +11,48 @@
 }
 
 .text-shadow {
-    box-shadow: inset -17px 0px 13.5px -14px #A6DA95,
-                inset -4px -4px 5.7px #000000,
-                inset 3px 3px 8.4px #323551;
+    box-shadow: inset -17px 0px 13.5px -14px theme(colors.green.background),
+                inset -4px -4px 5.7px theme(colors.blue.shadow.dark),
+                inset 3px 3px 8.4px theme(colors.blue.shadow.light);
 }
 
 .add-shadow {
-    box-shadow: 0px 0px 7px #A6DA95,
-                inset -4px -4px 6.1px rgba(24, 25, 38, 0.12),
-                inset -4px -4px 12.2px #4C8739,
-                inset 4px 4px 6px 2px #DAFFCF;
+    box-shadow: 0px 0px 7px theme(colors.green.background),
+                inset -4px -4px 12.2px theme(colors.green.shadow.dark),
+                inset 4px 4px 6px 2px theme(colors.green.shadow.light);
 }
 
 .done-shadow {
-    box-shadow: inset -17px 0px 13.5px -14px #ED8796,
-                0px 0px 7px #A6DA95,
-                inset -4px -4px 6.1px rgba(24, 25, 38, 0.12),
-                inset -4px -4px 12.2px #4C8739,
-                inset 4px 4px 6px 2px #DAFFCF;
+    box-shadow: inset -17px 0px 13.5px -14px theme(colors.red.background),
+                0px 0px 7px theme(colors.green.background),
+                inset -4px -4px 12.2px theme(colors.green.shadow.dark),
+                inset 4px 4px 6px 2px theme(colors.green.shadow.light);
 }
 
 .delete-shadow {
-    box-shadow: inset -17px 0px 13.5px -14px #C69FF6,
-                0px 0px 7px #ED8796,
-                inset 17px 0px 13.5px -14px #A6DA95,
-                inset -4px -4px 6px 2px #AD6771,
-                inset 4px 4px 6px 2px #FFB1BC;
+    box-shadow: inset -17px 0px 13.5px -14px theme(colors.purple.background),
+                0px 0px 7px theme(colors.red.background),
+                inset 17px 0px 13.5px -14px theme(colors.green.background),
+                inset -4px -4px 12px 2px theme(colors.red.shadow.dark),
+                inset 4px 4px 6px 2px theme(colors.red.shadow.light);
 }
 
 .description-shadow-pending {
-    box-shadow: inset 17px 0px 13.5px -14px #ED8796,
-                0px 0px 7px #C6A0F6,
-                inset -4px -4px 5.7px #7E62A1,
-                inset 3px 3px 8.4px #ECDCFF;
+    box-shadow: inset 17px 0px 13.5px -14px theme(colors.red.background),
+                0px 0px 7px theme(colors.purple.background),
+                inset -5px -5px 10.7px 0px theme(colors.purple.shadow.dark),
+                inset 5px 5px 6px theme(colors.purple.shadow.light);
 }
 .description-shadow-done {
     box-shadow: inset 17px 0px 13.5px -14px #EED49F,
-                0px 0px 7px #A6DA95,
-                inset -4px -4px 6.1px rgba(24,25,38,0.12),
-                inset -4px -4px 12.2px #4C8739,
-                inset 4px 4px 6px 2px #DAFFCF;
+                0px 0px 7px theme(colors.green.background),
+                inset -4px -4px 12.2px -1px theme(colors.green.shadow.dark),
+                inset 4px 4px 6px 2px theme(colors.green.shadow.light);
 }
 
 .undo-shadow {
-    box-shadow: inset -17px 0px 13.5px -14px #A6DA95,
-                0px 0px 7px #FFF1D4,
-                inset -4px -4px 6.1px rgba(24, 25, 38, 0.12),
-                inset -4px -4px 12.2px #B89959,
-                inset 4px 4px 6px 2px #FFF1D4;
+    box-shadow: inset -17px 0px 13.5px -14px theme(colors.green.background),
+                0px 0px 7px theme(colors.yellow.shadow.light),
+                inset -4px -4px 12.2px theme(colors.yellow.shadow.dark),
+                inset 4px 4px 6px 2px theme(colors.yellow.shadow.light);
 }

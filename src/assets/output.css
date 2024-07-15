@@ -768,47 +768,43 @@ video {
 
 .add-shadow {
   box-shadow: 0px 0px 7px #A6DA95,
-                inset -4px -4px 6.1px rgba(24, 25, 38, 0.12),
-                inset -4px -4px 12.2px #4C8739,
+                inset -4px -4px 12.2px #305e21,
                 inset 4px 4px 6px 2px #DAFFCF;
 }
 
 .done-shadow {
   box-shadow: inset -17px 0px 13.5px -14px #ED8796,
                 0px 0px 7px #A6DA95,
-                inset -4px -4px 6.1px rgba(24, 25, 38, 0.12),
-                inset -4px -4px 12.2px #4C8739,
+                inset -4px -4px 12.2px #305e21,
                 inset 4px 4px 6px 2px #DAFFCF;
 }
 
 .delete-shadow {
-  box-shadow: inset -17px 0px 13.5px -14px #C69FF6,
+  box-shadow: inset -17px 0px 13.5px -14px #C6A0F6,
                 0px 0px 7px #ED8796,
                 inset 17px 0px 13.5px -14px #A6DA95,
-                inset -4px -4px 6px 2px #AD6771,
+                inset -4px -4px 12px 2px #96414E,
                 inset 4px 4px 6px 2px #FFB1BC;
 }
 
 .description-shadow-pending {
   box-shadow: inset 17px 0px 13.5px -14px #ED8796,
                 0px 0px 7px #C6A0F6,
-                inset -4px -4px 5.7px #7E62A1,
-                inset 3px 3px 8.4px #ECDCFF;
+                inset -5px -5px 10.7px 0px #7E62A1,
+                inset 5px 5px 6px #ECDCFF;
 }
 
 .description-shadow-done {
   box-shadow: inset 17px 0px 13.5px -14px #EED49F,
                 0px 0px 7px #A6DA95,
-                inset -4px -4px 6.1px rgba(24,25,38,0.12),
-                inset -4px -4px 12.2px #4C8739,
+                inset -4px -4px 12.2px -1px #305e21,
                 inset 4px 4px 6px 2px #DAFFCF;
 }
 
 .undo-shadow {
   box-shadow: inset -17px 0px 13.5px -14px #A6DA95,
                 0px 0px 7px #FFF1D4,
-                inset -4px -4px 6.1px rgba(24, 25, 38, 0.12),
-                inset -4px -4px 12.2px #B89959,
+                inset -4px -4px 12.2px #786132,
                 inset 4px 4px 6px 2px #FFF1D4;
 }
 
